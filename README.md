@@ -1,5 +1,42 @@
-THE AUTOBLOGS
+# Auto Blog
 
+### Overview
+
+Auto Blog is a dynamic blogging platform that allows users to view, like, sort, and comment on blog posts. Admins have comprehensive control over the content, including managing posts, comments, and tags. The admin panel is built using Filament, and user authentication is handled via Jetstream.
+
+## Features
+
+**User Features**
+- View Posts: Browse through a list of blog posts.
+- Like Posts: Express appreciation for posts.
+- Sort Posts: Filter posts by popularity, latest, and oldest.
+- Comment on Posts: Engage with posts through comments.
+
+**Admin Features**
+- Post Management:
+  - Add: Create new blog posts.
+  - Edit: Update existing posts.
+  - Delete: Remove posts.
+- Author Management: Assign authors to posts.
+- Tag Management:
+  - Add: Create new tags.
+  - Edit: Update existing tags.
+  - Delete: Remove tags.
+- Comment Management:
+  - View: Monitor comments on posts.
+  - Delete: Remove inappropriate or unwanted comments.
+
+## Authentication
+User authentication is managed using Jetstream. Admin access is handled through the Filament admin panel.
+
+## Usage
+Right now i cant find a hosting service that will host a laravel application for free.
+
+
+
+# DESIGN
+
+DASHBOARD
 ![image](https://github.com/user-attachments/assets/ebb848d7-2c16-4dfa-92c5-6c5cffbdb431)
 
 ![image](https://github.com/user-attachments/assets/d0cf59cc-631d-47b7-9bcc-5874f7bf80f8)
